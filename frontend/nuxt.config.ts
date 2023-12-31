@@ -3,4 +3,8 @@ export default defineNuxtConfig({
   ssr: false,
   devtools: { enabled: true },
   css: ['@/app.scss'],
-})
+
+  app: { baseURL: '/nuxt-template/' },
+
+  modules: [],
+});
